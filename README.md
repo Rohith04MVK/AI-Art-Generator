@@ -4,9 +4,9 @@
 
 ## Overview
 
-### Simple Art style transferer.
+### Simple Art style transferer
 
-#### You give a style image and the model learns the features and transfers it to the content image.
+#### You give a style image and the model learns the features and transfers it to the content image
 
 #### Best recommended to run with a GPU for fastest result
 
