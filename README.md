@@ -13,7 +13,7 @@
 
 
 ## Further reading
-#### Read [Gatys’ paper](https://arxiv.org/abs/1508.06576) —
-### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
+#### [Gatys’ paper](https://arxiv.org/abs/1508.06576)
+#### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
 
 ## Some examples of the project
