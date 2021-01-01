@@ -16,8 +16,8 @@ from tensorflow import keras
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-content_path = '/content/varshavski-mikhail-image.jpg'
-style_path = '/content/monolisa.jpg'
+content_path = './images/city.jpg'
+style_path = './images/stary_night'
 
 def load_img(path_to_img):
   max_dim = 512
