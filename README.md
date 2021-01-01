@@ -14,13 +14,13 @@
 
 ### Neural style transfer is an optimization technique used to take two images, style reference image (such as an artwork by a famous painter), and the input image you want to style
 
-#### The model then blends the images to give your input image a artistic style
+### The model then blends the images to give your input image a artistic style
 
 ## Further reading
 
 ### [Gatys’ paper](https://arxiv.org/abs/1508.06576)
 
-#### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
+### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
 
 ## Some examples of the project
 
