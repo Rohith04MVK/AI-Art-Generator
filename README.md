@@ -17,3 +17,7 @@
 #### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
 
 ## Some examples of the project
+### Content and style images
+https://cdn.discordapp.com/attachments/748848099891347498/794168270831353856/tRe7lwtniHiKzxOK0pl2g5HA6HwFwXCRc6dDhcDgcDofjIuESLYfD4XA4HI6LhEu0HA6HwFwOC4SLtFyOBwOh8PhuEi4RMvhcDgc.png
+### Output
+https://cdn.discordapp.com/attachments/748848099891347498/794168176110731264/uNsabtFDjw5F7SPtB5ZrBdeNPfbuXaH96JOWTIkCF3KLtdQhkyZMiQIffDA18yJAhQ5QhgYZMiQIXcoQwMfMmTIkDuUoYEPGTJky.png
