@@ -1,6 +1,7 @@
 # AI-Art-Generator
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18nLCUAQZJ-vuOIn04IrBMubqsV6VO_9j?usp=sharing)
+[![Made with Tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg)](https://www.tensorflow.org/)
 
 ## Overview
 
