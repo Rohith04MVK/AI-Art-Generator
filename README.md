@@ -26,8 +26,8 @@
 ### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
 
 ## Credits
-###[Tensorflow article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
-###(It was for version Tensorflow V1)
+### [Tensorflow article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
+### (It was for version Tensorflow V1)
 
 
 ## Some examples of the project
