@@ -46,7 +46,13 @@
 
 #### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
 
+###Setup conda
+#### ```conda create -n myenv python=3.8.5```
+
+
 ### Install dependancies
 
 #### ```pip install -r requirements.txt```
+### OR
+#### ```conda install -r requirements.txt```
 
