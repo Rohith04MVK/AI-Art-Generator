@@ -54,5 +54,5 @@
 
 #### ```pip install -r requirements.txt```
 ### OR
-#### ```conda install -r requirements.txt```
+#### ```conda install --file requirements.txt```
 
