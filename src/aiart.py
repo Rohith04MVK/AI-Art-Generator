@@ -160,7 +160,7 @@ def compute_grads(cfg):
   total_loss = all_loss[0]
   return tape.gradient(total_loss, cfg['init_image']), all_loss
 
-import IPython.display
+
 import time
 def run_style_transfer(content_path, 
                        style_path,
@@ -232,15 +232,12 @@ def run_style_transfer(content_path,
       plot_img = init_image.numpy()
       plot_img = deprocess_img(plot_img)
       imgs.append(plot_img)
-      IPython.display.clear_output(wait=True)
-      IPython.display.display_png(Image.fromarray(plot_img))
       print('Iteration: {}'.format(i))        
       print('Total loss: {:.4e}, ' 
             'style loss: {:.4e}, '
             'content loss: {:.4e}, '
             'time: {:.4f}s'.format(loss, style_score, content_score, time.time() - start_time))
   print('Total time: {:.4f}s'.format(time.time() - global_start))
-  IPython.display.clear_output(wait=True)
   plt.imshow(plot_img)
   plt.show()
   plt.figure(figsize=(14,4))
