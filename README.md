@@ -60,3 +60,6 @@
 ## Replace the pictures
 #### Replace line 10  ```content_path``` with the image you want to transform
 #### Replace line 11 ```style_path``` with the style picture you want to transfer
+
+## Run the file!
+#### ```python aiart.py```
