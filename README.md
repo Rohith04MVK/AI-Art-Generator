@@ -46,7 +46,7 @@
 
 #### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
 
-###Setup conda
+### Setup conda
 #### ```conda create -n myenv python=3.8.5```
 
 
