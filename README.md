@@ -40,22 +40,22 @@
 
 ![image](https://cdn.discordapp.com/attachments/748848099891347498/794168176110731264/uNsabtFDjw5F7SPtB5ZrBdeNPfbuXaH96JOWTIkCF3KLtdQhkyZMiQIffDA18yJAhQ5QhgYZMiQIXcoQwMfMmTIkDuUoYEPGTJky.png)
 
-## How to run locally?
+# How to run locally?
 
-### Clone the repo
+## Clone the repo
 
 #### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
 
-### Setup conda
+## Setup conda
 #### ```conda create -n myenv python=3.8.5```
 
 
-### Install dependancies
+## Install dependancies
 
 #### ```pip install -r requirements.txt```
-### OR
+#### OR
 #### ```conda install --file requirements.txt```
 
-### Replace the pictures
+## Replace the pictures
 #### Replace line 10  ```content_path``` with the image you want to transform
 #### Replace line 11 ```style_path``` with the style picture you want to transfer
