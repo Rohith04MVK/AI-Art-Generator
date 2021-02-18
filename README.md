@@ -48,5 +48,5 @@
 
 ### Install dependancies
 
-#### ```pip install requirments.txt```
+#### ```pip install -r requirements.txt```
 
