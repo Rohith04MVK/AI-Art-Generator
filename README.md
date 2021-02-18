@@ -41,7 +41,12 @@
 ![image](https://cdn.discordapp.com/attachments/748848099891347498/794168176110731264/uNsabtFDjw5F7SPtB5ZrBdeNPfbuXaH96JOWTIkCF3KLtdQhkyZMiQIffDA18yJAhQ5QhgYZMiQIXcoQwMfMmTIkDuUoYEPGTJky.png)
 
 ## How to run locally?
+
 ### Clone the repo
+
 #### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
+
 ### Install dependancies
-####```pip install requirments.txt```
+
+#### ```pip install requirments.txt```
+
