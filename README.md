@@ -10,26 +10,26 @@
 
 #### Best recommended to run with a GPU for fastest result
 
-## How it works?
+### How it works?
 
-### Neural style transfer is an optimization technique used to take two images, style reference image (such as an artwork by a famous painter), and the input image you want to style
+#### Neural style transfer is an optimization technique used to take two images, style reference image (such as an artwork by a famous painter), and the input image you want to style
 
-### The model then blends the images to give your input image a artistic style
+#### The model then blends the images to give your input image a artistic style
 
-## Further reading
+### Further reading
 
-### [Gatys’ paper](https://arxiv.org/abs/1508.06576)
+#### [Gatys’ paper](https://arxiv.org/abs/1508.06576)
 
-### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
+#### [Gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
 
-## Credits
-### [Tensorflow article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
-### (It was for version Tensorflow V1)
+### Credits
+#### [Tensorflow article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
+#### (It was for version Tensorflow V1)
 
 
-## Some examples of the project
+### Some examples of the project
 
-### Content and style images
+#### Content and style images
 
 ![image](https://cdn.discordapp.com/attachments/748848099891347498/794168270831353856/tRe7lwtniHiKzxOK0pl2g5HA6HwFwXCRc6dDhcDgcDofjIuESLYfD4XA4HI6LhEu0HA6HwFwOC4SLtFyOBwOh8PhuEi4RMvhcDgc.png)
 
@@ -37,26 +37,26 @@
 
 ![image](https://cdn.discordapp.com/attachments/748848099891347498/794168176110731264/uNsabtFDjw5F7SPtB5ZrBdeNPfbuXaH96JOWTIkCF3KLtdQhkyZMiQIffDA18yJAhQ5QhgYZMiQIXcoQwMfMmTIkDuUoYEPGTJky.png)
 
-# How to run locally?
+## How to run locally?
 
-## Clone the repo
+### Clone the repo
 
 #### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
 
-## Setup conda
+### Setup conda
 #### ```conda create -n AI-Art-Generator python=3.8.5```
 #### ```conda activate AI-Art-Generator```
 
 
-## Install dependancies
+### Install dependancies
 
 #### ```pip install -r requirements.txt```
 #### OR
 #### ```conda install --file requirements.txt```
 
-## Replace the pictures
+### Replace the pictures
 #### Replace line 10  ```content_path``` with the image you want to transform
 #### Replace line 11 ```style_path``` with the style picture you want to transfer
 
-## Run the file!
+### Run the file!
 #### ```python aiart.py```
