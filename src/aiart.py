@@ -13,6 +13,7 @@ style_path = './images/stary_night'
 def load_img(path_to_img):
   max_dim = 512
   img = Image.open(path_to_img)
+  img = img.convert('RGB')
   long = max(img.size)
   scale = max_dim/long
   img = img.resize((round(img.size[0]*scale), round(img.size[1]*scale)), Image.ANTIALIAS)
@@ -250,6 +251,5 @@ def run_style_transfer(content_path,
       
   return best_img, best_loss
 
-with tf.device('GPU:0'):
-    best, best_loss = run_style_transfer(content_path, 
+best, best_loss = run_style_transfer(content_path, 
                                         style_path, num_iterations=1000)
