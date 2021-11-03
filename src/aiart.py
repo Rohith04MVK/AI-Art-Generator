@@ -5,10 +5,11 @@ from tensorflow.keras.preprocessing import image as kp_image
 from PIL import Image
 from tensorflow import keras
 from PIL import ImageFile
+from tqdm import tqdm
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-content_path = './images/city.jpg'
-style_path = './images/stary_night'
+content_path = './city.jpg'
+style_path = './stary_night.jpg'
 
 def load_img(path_to_img):
   max_dim = 512
@@ -212,8 +213,7 @@ def run_style_transfer(content_path,
   max_vals = 255 - norm_means   
   
   imgs = []
-  for i in range(num_iterations):
-    print(i)
+  for i in tqdm(range(num_iterations)):
     grads, all_loss = compute_grads(cfg)
     loss, style_score, content_score = all_loss
     opt.apply_gradients([(grads, init_image)])
