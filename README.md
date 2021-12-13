@@ -39,24 +39,23 @@
 
 ## How to run locally?
 
-### Clone the repo.
+#### Clone the repo.
+``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
 
-#### ``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
-
-### Setup conda.
-#### ```conda create -n AI-Art-Generator python=3.8.5```
-#### ```conda activate AI-Art-Generator```
+#### Setup conda.
+```conda create -n AI-Art-Generator python=3.8.5```
+```conda activate AI-Art-Generator```
 
 
-### Install dependancies.
+#### Install dependancies.
 
-#### ```pip install -r requirements.txt```
+```pip install -r requirement.txt```
 #### OR
-#### ```conda install --file requirements.txt```
+```conda install --file requirement.txt```
 
-### Replace the pictures.
-#### Replace line 10  ```content_path``` with the image you want to transform
-#### Replace line 11 ```style_path``` with the style picture you want to transfer
+#### Replace the pictures.
+Replace line 10  ```content_path``` with the image you want to transform
+Replace line 11 ```style_path``` with the style picture you want to transfer
 
-### Run the file!
-#### ```python aiart.py```
+#### Run the file!
+```python aiart.py```
