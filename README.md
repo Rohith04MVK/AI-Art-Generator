@@ -37,22 +37,34 @@ The model then blends the images to give your input image a artistic style
 ## How to run locally?
 
 #### Clone the repo.
-``` git clone https://github.com/Rohith04MVK/AI-Art-Generator```
+``` sh
+git clone https://github.com/Rohith04MVK/AI-Art-Generator
+```
 
 #### Setup conda.
-```conda create -n AI-Art-Generator python=3.8.5```
-```conda activate AI-Art-Generator```
+```sh
+conda create -n AI-Art-Generator python=3.8.5
+```
+```sh
+conda activate AI-Art-Generator
+```
 
 
 #### Install dependancies.
 
-```pip install -r requirement.txt```
+```sh
+pip install -r requirement.txt
+```
 #### OR
-```conda install --file requirement.txt```
+```sh
+conda install --file requirement.txt
+```
 
 #### Replace the pictures.
-Replace line 10  ```content_path``` with the image you want to transform
-Replace line 11 ```style_path``` with the style picture you want to transfer
+Replace line 10  `content_path` with the image you want to transform
+Replace line 11 `style_path` with the style picture you want to transfer
 
 #### Run the file!
-```python aiart.py```
+```sh
+python aiart.py
+```
