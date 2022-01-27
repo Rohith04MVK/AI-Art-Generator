@@ -2,7 +2,7 @@
 
 [![made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18nLCUAQZJ-vuOIn04IrBMubqsV6VO_9j?usp=sharing)[![Made with Tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg)](https://www.tensorflow.org/)
 
-## Overview
+<h2 align="center">Overview</h2>
 
 ## Simple Art style transferer
 You give a style image and the model learns the features and transfers it to the content image
