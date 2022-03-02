@@ -3,3 +3,4 @@ Tensorflow
 Matplotlib
 Keras
 Numpy
+tqdm
