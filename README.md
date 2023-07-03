@@ -10,9 +10,17 @@ Best recommended to run with a GPU for fastest result
 
 ## How it works?
 
-Neural style transfer is an optimization technique used to take two images, style reference image (such as an artwork by a famous painter), and the input image you want to style
+Neural style transfer is an optimization technique that involves creating a new image that merges the content of one image with the style of another. Here's a high-level overview of how the AI-Art-Generator works:
 
-The model then blends the images to give your input image a artistic style
+    - Load the content image and the style image.
+    - Preprocess the images by resizing and normalizing them.
+    - Create a model that combines a pre-trained convolutional neural network (CNN) with the VGG19 architecture.
+    - Define loss functions that measure the content loss and style loss between the generated image and the target image.
+    - Set up the optimization process using gradient descent to minimize the total loss.
+    - Iterate the optimization process to update the generated image and minimize the loss.
+    - Generate the final stylized image.
+
+By minimizing the content loss, the generated image retains the content of the original content image. By minimizing the style loss, the generated image captures the artistic style of the style image. The balance between the content and style losses can be adjusted to control the final result.
 
 ## Further reading
 
