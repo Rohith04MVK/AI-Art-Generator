@@ -6,7 +6,7 @@
 
 ## Simple Art style transferer
 You give a style image and the model learns the features and transfers it to the content image
-Best recommended to run with a GPU for fastest result
+Best recommended to run with a GPU for the fastest result
 
 ## How it works?
 
@@ -29,7 +29,7 @@ By minimizing the content loss, the generated image retains the content of the o
 
 ## Credits
 [Tensorflow article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
-(It was for version Tensorflow V1)
+(It was for version TensorFlow V1)
 
 
 ## Some examples of the project
@@ -58,7 +58,7 @@ conda activate AI-Art-Generator
 ```
 
 
-#### Install dependancies.
+#### Install dependencies.
 
 ```sh
 pip install -r requirement.txt
