@@ -76,3 +76,6 @@ Replace line 11 `style_path` with the style picture you want to transfer
 ```sh
 python aiart.py
 ```
+
+## Starchart
+[![Star History Chart](https://api.star-history.com/svg?repos=Rohith04MVK/AI-Art-Generator&type=Date)](https://star-history.com/#Rohith04MVK/AI-Art-Generator&Date)
